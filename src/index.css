@@ -1,0 +1,11 @@
+:root {
+    --primary-color: rgb(200, 100, 0);
+    --secondary-color: rgb(0, 100, 200);
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: content-box;
+    font-family: "Inter"
+}

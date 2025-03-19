@@ -1,0 +1,79 @@
+#create__post {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#create__post h2 {
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+#create__post_form {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    border: 1px solid gray;
+    
+    border-radius: 1rem;
+    box-shadow: 0px 0px 5px gray;
+}
+
+#create_post_form_title {
+    background-color: var(--primary-color);
+    padding: 1.5rem;
+    color: white;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+
+}
+
+#create_post_form_content {
+    padding: 0rem 1.5rem 1.5rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+#create_post_form_content div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+#create_post_form_content label {
+    font-weight: bold;
+}
+
+#create_post_form_content input {
+    padding: .5rem;
+}
+
+#create_post_form_footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1.5rem;
+}
+
+#create_post_form_footer button {
+    background-color: var(--primary-color);
+    color: white;
+    padding: .5rem;
+    text-transform: uppercase;
+    border-radius: .5rem;
+    border: none;
+    cursor: pointer;
+}
+
+#create_post_form_footer button:hover {
+    opacity: 0.9;
+}
+
